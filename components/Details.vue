@@ -23,7 +23,7 @@
       <div class="tw-flex tw-justify-between tw-gap-1">
         <div class="slider">
           <div
-            class="slider-content tw-gap-x-8  sm:tw-gap-x-28"
+            class="slider-content tw-gap-x-8 sm:tw-gap-x-28"
             :style="{ transform: `translateX(${translateValue}px)` }"
           >
             <img
@@ -67,7 +67,17 @@ import sonosImage from "../assets/Images/Sonos.svg";
 export default {
   data() {
     return {
-      images: [sonosImage, sonosImage, sonosImage, sonosImage , sonosImage , sonosImage , sonosImage , sonosImage ,sonosImage],
+      images: [
+        sonosImage,
+        sonosImage,
+        sonosImage,
+        sonosImage,
+        sonosImage,
+        sonosImage,
+        sonosImage,
+        sonosImage,
+        sonosImage,
+      ],
       translateValue: 0,
       containerWidth: 0,
       duplicateImages: [],
